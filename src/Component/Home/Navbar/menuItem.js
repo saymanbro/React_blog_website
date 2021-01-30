@@ -1,0 +1,22 @@
+export const menuItem = [
+    {
+        text:'Home',
+        path:'/home',
+        cName:'nav_links'
+    },
+    {
+        text:'Economics',
+        path:'/Economics',
+        cName:'nav_links'
+    },
+    {
+        text:'Technology',
+        path:'/tech',
+        cName:'nav_links'
+    },
+    {
+        text:'Cavid-19',
+        path:'/cavid',
+        cName:'nav_links'
+    }
+]

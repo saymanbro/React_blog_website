@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.second_article_container{
+    width:100%;
+    height:100vh;
+    background: #757F9A;   
+}
+.america_article{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items:center;  
+    
+ 
+}
+.usa_article{
+    margin-top: 50px;
+}
+.hollywood_article{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    align-items: center;
+    
+    margin:80px 0px;
+    color: #fff;
+   
+ 
+}
+.hollyArticle small{
+   margin-left:  100px;
+ 
+}
+.hollyArticle img{
+    margin-left: 40px;
+    width: 80%;
+    display: block;
+}
+/* Footer Section */
+.footer_section{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px ;
+   text-align: center;
+    height: 300px;
+    background-color: #1a2a6c;
+    color: #fff;
+    /* justify-items:start */   
+}
+
+.input_box{
+ margin-top: 40px;
+    
+}
+.footer_left_col h2{
+    margin: 30px 0 20px 0;
+}
+.footer_left_col input{
+    outline: none;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+    height: 40px;
+    border-radius: 6px;
+}
+
+ .social_icon{
+    align-items: center;
+    justify-items: center;
+    margin: 20px auto;
+    padding-top: 50px;
+    color: #fff;  
+   
+}
+.footer_right_col h4{
+    margin-top: 30px;
+}
+.send_btn{
+    padding: 8px 25px;
+    color:black;
+    background: yellow;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 1s ease-out;
+    
+}
+.send_btn:hover{
+    background: royalblue;
+    color:#fff;
+}
+i{
+    margin: 0 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+footer{
+    margin-top: 50px;
+}

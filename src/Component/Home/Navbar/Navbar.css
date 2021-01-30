@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar_container{
+    width:100%;
+    background: #212329;
+}
+.navbar{
+    width: 90%;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+.brand_logo{ 
+    justify-self: start;
+   
+    font-size: 30px;
+     color: #fff;
+}
+.nav_menu{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-self: center;
+    width: 60%;
+    list-style: none;
+    text-align: center;
+
+}
+.nav_menu .nav_links{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    
+
+}
+.nav_icon_div{
+    list-style: none;
+    width: 15% ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-self:center;
+}
+.nav_icon{
+ 
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+    padding: 0 10px;
+}
+
